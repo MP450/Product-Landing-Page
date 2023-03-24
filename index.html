@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Montserrat:wght@500;700&display=swap" 
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+	<header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="https://images.ctfassets.net/m8onsx4mm13s/72p8qgeqA4UK7FD2MwyA19/cbc4a71ff92b788b791a53fa683dc6f4/gibson__1_.svg" 
+                     alt="Gibson Logo" 
+                     width="100"
+                     id="header-img"
+                />
+                <span class="product">Gibson Guitars</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#electric" class="nav-link">Electric</a></li>
+                <li><a href="#acoustic" class="nav-link">Acoustic</a></li>
+                <li><a href="#bass" class="nav-link">Bass</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="email-section">
+        <h2>Only a Gibson is good enough</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input 
+                id="email"
+                type="email"
+                required
+                placeholder="Enter your email address"
+                name="email"
+            />
+            <input type="submit" id="submit" value="GET STARTED" />
+        </form>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <i class="ri-truck-fill ri-4x icon"></i>
+            <div>
+                <h2>Free Shipping</h2>
+                <p>
+                    On US online orders over $50.
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-award-fill ri-4x icon"></i>
+            <div>
+                <h2>Lifetime Warranty</h2>
+                <p>
+                    Free, limited warranty on material and workmanship.
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-money-dollar-circle-fill ri-4x icon"></i>
+            <div>
+                <h2>Financing Available</h2>
+                <p>
+                    Options available through Klarna at checkout.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="audio">
+        <iframe 
+            id="video"
+            height="400" 
+            src="https://www.youtube.com/embed/3lq7prpFbuA" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="electric">
+        <h2>Electric Guitars</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="product-image electric1">
+                    <img src="https://images.ctfassets.net/m8onsx4mm13s/25lq0MBtlD1j5njo07cmb6/632334c145f24433c2e33838e7dc3844/__static.gibson.com_product-images_USA_USA85B326_Gold_Top_front-500x500.png?fit=fill&w=250&h=500" 
+                    alt="Les Paul Standard '50s P-90">
+                </div>
+                <div class="inner-card">
+                    <div class="model">Les Paul Standard '50s P-90</div>
+
+                    <h1 class="header">Back Where It All Began</h1>
+
+                    <p class="content">
+                        The new Les Paul Standard returns to the classic design that made it 
+                        famous. It pays tribute to Gibson's Golden Era of innovation and brings 
+                        authenticity back to life. The Les Paul Standard 50s P-90 has a solid 
+                        mahogany body with a maple top and a rounded 50s-style mahogany neck with 
+                        a rosewood fingerboard and trapezoid inlays. It's equipped with an ABR-1, 
+                        the classic-style Tune-O-Matic™ bridge, an aluminum Stop Bar tailpiece, 
+                        Vintage Deluxe tuners with Keystone buttons, and Top Hat knobs. The 
+                        classic P-90 pickups (neck and bridge) are loaded with Alnico 5 magnets, 
+                        audio taper potentiometers, and Orange Drop® capacitors.
+                    </p>
+
+                    <div class="flex">
+                        <p class="price">$2,799.00</p>
+                    </div>
+                    
+                    <button class="add">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="acoustic">
+        <h2>Acoustic Guitars</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="product-image acoustic1">
+                    <img src="https://images.ctfassets.net/m8onsx4mm13s/1rLaWFKh8WCmT497BoUONx/3937db06cf7d24ab141c5a8f14695247/__static.gibson.com_product-images_Acoustic_ACCK88741_Ebony_front-500_500.png?fit=fill&w=250&h=500" 
+                    alt="Jerry Cantrell 'Fire Devil' Songwriter">
+                </div>
+                <div class="inner-card">
+                    <div class="model">Jerry Cantrell "Fire Devil" Songwriter</div>
+
+                    <h1 class="header">An Ideal Blend of Modern and Traditional Features in a 
+                        Limited-Edition Artist Model Acoustic</h1>
+
+                    <p class="content">
+                        Whether you’re writing a song at home, laying it down in the studio, 
+                        or bringing it to thousands on stage, the Jerry Cantrell "Fire Devil" 
+                        Songwriter delivers. Made to the Alice in Chains guitarist's 
+                        specifications, the Jerry Cantrell "Fire Devil" Songwriter builds 
+                        upon the traditional Gibson Songwriter platform. It adds several 
+                        unique, personalized features, including a thinner body depth for 
+                        playing comfort, a unique "Fire Devil" pickguard, Jerry Cantrell 
+                        signature on the truss rod cover, Double J waterslide decal on the 
+                        back of the headstock, “12” inlay at the 12th fret, gold hardware 
+                        with gold Grover® Mini Rotomatic® tuners, and an L.R. Baggs™ VTC 
+                        pickup and preamp, so it’s ready to plug in whenever you are. Only 
+                        100 units will be hand-made . . .
+                    </p>
+
+                    <div class="flex">
+                        <p class="price">$3,999.00</p>
+                    </div>
+                    
+                    <button class="add">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bass">
+        <h2>Bass Guitars</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="product-image bass1">
+                    <img src="https://images.ctfassets.net/m8onsx4mm13s/5kZdbbL6Rqmg2qHykB94dJ/258a8632e23848aa8a6a6282cb408d4b/BAT4RB00EBGH1_front.png?fit=fill&w=250&h=500" 
+                    alt="Rex Brown Signature Thunderbird">
+                </div>
+                <div class="inner-card">
+                    <div class="model">Rex Brown Signature Thunderbird</div>
+
+                    <h1 class="header">A New Signature Bass Model From Rex Brown</h1>
+
+                    <p class="content">
+                        Multi-instrumentalist Rex Brown is well-known for his work with 
+                        legendary metal bands Pantera and Down, and his hard-rocking solo 
+                        album, Smoke on This… His new Gibson Rex Brown Signature Thunderbird™ 
+                        bass features a mahogany neck and body, and gold hardware with a 
+                        Hipshot® bridge and tuners (including a Drop D Xtender™). A pair of 
+                        powerful Rexbucker T-Bird pickups provide plenty of output and low-end
+                         punch. The master tone control is equipped with a push/pull switch 
+                         that puts the pickups into passive mode when it is pulled out. Rex’s 
+                         signature is reproduced on the truss rod cover, and the backplate is 
+                         embellished with a Rex Brown doodle. A Modern Series hardshell case 
+                         is also included. 
+                    </p>
+
+                    <div class="flex">
+                        <p class="price">$2,799.00</p>
+                    </div>
+                    
+                    <button class="add">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
